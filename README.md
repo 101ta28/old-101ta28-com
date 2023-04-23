@@ -1,26 +1,57 @@
 # [www.101ta28.com](https://www.101ta28.com/)
 
-My Site
+## Project setup
 
-## Install the dependencies
 ```bash
+# yarn
 yarn
+
+# npm
+npm install
+
+# pnpm
+pnpm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Compiles and hot-reloads for development
+
 ```bash
-quasar dev
+# yarn
+yarn dev
+
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
 ```
 
-### Lint the files
+### Compiles and minifies for production
+
 ```bash
-yarn run lint
+# yarn
+yarn build
+
+# npm
+npm run build
+
+# pnpm
+pnpm build
 ```
 
-### Build the app for production
+### Lints and fixes files
+
 ```bash
-quasar build
+# yarn
+yarn lint
+
+# npm
+npm run lint
+
+# pnpm
+pnpm lint
 ```
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+### Customize configuration
+
+See [Configuration Reference](https://vitejs.dev/config/).
