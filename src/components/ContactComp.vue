@@ -7,13 +7,13 @@
       <div class="py-3" />
 
       <v-row class="d-flex align-start justify-center">
-        <v-col cols="auto" v-for="contact in contactList" :key="contact.title">
-            <v-card class="mx-auto clickable" width="600" @click="openLink(contact.link)">
-              <v-card-title primary-title class="d-flex align-center justify-center">
-                <v-icon class="text-h4">{{ contact.icon }}</v-icon>
-                <h4 class="text-h5">{{ contact.title }} : {{ contact.user_name }}</h4>
-              </v-card-title>
-            </v-card>
+        <v-col cols="12" v-for="contact in contactList" :key="contact.title">
+          <v-card class="mx-auto clickable" max-width="600" @click="openLink(contact.link)">
+            <v-card-title primary-title class="d-flex align-center justify-center">
+              <v-icon class="text-h4">{{ contact.icon }}</v-icon>
+              <h4 class="text-h5 text-center">{{ contact.title }} : {{ contact.user_name }}</h4>
+            </v-card-title>
+          </v-card>
         </v-col>
       </v-row>
     </v-responsive>
