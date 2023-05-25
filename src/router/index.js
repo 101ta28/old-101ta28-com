@@ -44,6 +44,18 @@ const routes = [
       },
     ],
   },
+  // 404用
+  {
+    path: '/:pathMatch(.*)*',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'NotFound',
+        component: () => import('@/views/NotFound.vue'),
+      },
+    ],
+  }
 ]
 
 const router = createRouter({
