@@ -42,7 +42,7 @@
 import { ref } from 'vue';
 
 const works = ref([
-  { year: '2019年度', img: 'img/ar_paper.pdf', title: '室内情報可視化の研究', text: '室内情報可視化の研究を行いました。', tech: 'Unity, C#, Java' },
+  { year: '2019年度', img: 'img/ar_paper.jpg', title: '室内情報可視化の研究', text: '室内情報可視化の研究を行いました。', tech: 'Unity, C#, Java' },
   { year: '2020年6月頃', img: 'img/cirkit_hp.png', title: 'ホームページ改修', text: '株式会社CirKitのホームページを\nスマートフォン対応させました。', tech: 'React, TypeScript' },
   { year: '2020年10月頃', img: 'img/sakito_hp.png', title: '学生向けアンケートサイトの\n保守管理', text: '株式会社CirKitにて\nSAKITOの新機能実装や保守管理を行いました。', tech: 'Ruby on Rails, MySQL' },
 ])
