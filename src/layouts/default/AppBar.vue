@@ -6,13 +6,13 @@
     </v-app-bar-title>
     <v-spacer></v-spacer>
     <div v-if="isDesktop">
-      <v-btn v-for="link in links" :key="link.text" link color="white" :to="link.pageLink" class="text-capitalize"
+      <v-btn v-for="link in links" :key="link.text" link color="white" :href="link.pageLink" class="text-capitalize"
         :ripple="false">{{ link.text }}</v-btn>
     </div>
   </v-app-bar>
   <v-navigation-drawer v-model="drawer" color="primary" disable-resize-watcher app>
     <v-list dense>
-      <v-list-item v-for="link in links" :key="link.text" link :to="link.pageLink">
+      <v-list-item v-for="link in links" :key="link.text" link :href="link.pageLink">
         <v-icon>{{ link.icon }}</v-icon>
         <v-list-item-title>{{ link.text }}</v-list-item-title>
       </v-list-item>
@@ -31,6 +31,7 @@ const drawer = ref(false)
 const links = ref([
   { icon: 'mdi-home', text: 'Home', pageLink: "/" },
   { icon: 'mdi-code-tags', text: 'Work', pageLink: "/work" },
+  { icon: 'mdi-rss', text: 'Blog', pageLink: "https://blog.101ta28.com" },
   { icon: 'mdi-rss', text: 'Contact', pageLink: "/contact" },
 ])
 
