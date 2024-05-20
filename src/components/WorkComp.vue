@@ -43,14 +43,14 @@
 import { ref } from 'vue';
 
 const works = ref([
-  { year: '2019年度', img: 'img/ar_paper.webp', title: '室内情報可視化の研究', text: '室内情報可視化の研究を行いました。', tech: 'Unity, C#, Java' },
-  { year: '2020年6月頃', img: 'img/cirkit_hp.webp', title: 'ホームページ改修', text: '株式会社CirKitのホームページを\nスマートフォン対応させました。', tech: 'React, TypeScript' },
-  { year: '2020年10月頃', img: 'img/sakito_hp.webp', title: '学生向けアンケートサイトの\n保守管理', text: '株式会社CirKitにて\nSAKITOの新機能実装や保守管理を行いました。', tech: 'Ruby on Rails, MySQL' },
-  { year: '2022年2月', img: 'img/42_intra.webp', title: '42東京入学', text: '42東京に入学しました。\n今はブラックホール(時間切れによる退学)です。', tech: 'C, Shell' },
-  { year: '2022年度', title: '大手コンテンツのHP改良', text: 'チームにてスケジュール機能を作成しました。', tech: 'PHP' },
-  { year: '2023年1月', img: 'img/borrow.webp', title: '社内システムの開発・運用', text: '社内システム開発と運用を行いました。', tech: 'Vue, Python(FastAPI), Docker Compose' },
-  { year: '2023年度', img: 'img/gakuyusha_hp.webp', title: '会社HPの改良', text: '株式会社学侑社の\nホームページ改良を行いました。', tech: '既存システム利用' },
   { year: '2023年度', img: 'img/shinkou_hp.webp', title: '不動産HPの改良', text: '住まいサポートデスク新篁の\nホームページ改良を行いました。', tech: '既存システム利用' },
+  { year: '2023年度', img: 'img/gakuyusha_hp.webp', title: '会社HPの改良', text: '株式会社学侑社の\nホームページ改良を行いました。', tech: '既存システム利用' },
+  { year: '2023年1月', img: 'img/borrow.webp', title: '社内システムの開発・運用', text: '社内システム開発と運用を行いました。', tech: 'Vue, Python(FastAPI), Docker Compose' },
+  { year: '2022年度', title: '大手コンテンツのHP改良', text: 'チームにてスケジュール機能を作成しました。', tech: 'PHP' },
+  { year: '2022年2月', img: 'img/42_intra.webp', title: '42東京入学', text: '42東京に入学しました。\n今はブラックホール(時間切れによる退学)です。', tech: 'C, Shell' },
+  { year: '2020年10月頃', img: 'img/sakito_hp.webp', title: '学生向けアンケートサイトの\n保守管理', text: '株式会社CirKitにて\nSAKITOの新機能実装や保守管理を行いました。', tech: 'Ruby on Rails, MySQL' },
+  { year: '2020年6月頃', img: 'img/cirkit_hp.webp', title: 'ホームページ改修', text: '株式会社CirKitのホームページを\nスマートフォン対応させました。', tech: 'React, TypeScript' },
+  { year: '2019年度', img: 'img/ar_paper.webp', title: '室内情報可視化の研究', text: '室内情報可視化の研究を行いました。', tech: 'Unity, C#, Java' },
 ])
 
 </script>
