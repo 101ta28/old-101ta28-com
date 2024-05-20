@@ -11,12 +11,12 @@
           <div>
             <p class="text-body-1">
               初めまして。今井 竜也です。
-            </p>
-            <p class="text-body-1">
+              <br />
               中学時代にプログラミングに興味を持ち、なんやかんやで今に至ります。
-            </p>
-            <p class="text-body-1">
+              <br />
               今は主にWebアプリケーションの開発や、社内システムの運用などをしています。
+              <br />
+              経歴やスキルなどは、<a href="https://github.com/101ta28/resume">https://github.com/101ta28/resume</a>をご覧ください。
             </p>
           </div>
         </v-col>
@@ -26,5 +26,5 @@
 </template>
 
 <script setup>
-  //
+//
 </script>
